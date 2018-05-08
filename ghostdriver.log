@@ -1,0 +1,157 @@
+[INFO  - 2018-05-08T02:52:15.849Z] GhostDriver - Main - running on port 49420
+[INFO  - 2018-05-08T02:52:17.917Z] Session [d210af80-526a-11e8-9fa5-910519a483a6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-08T02:52:17.917Z] Session [d210af80-526a-11e8-9fa5-910519a483a6] - page.customHeaders:  - {}
+[INFO  - 2018-05-08T02:52:17.917Z] Session [d210af80-526a-11e8-9fa5-910519a483a6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-08T02:52:17.917Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d210af80-526a-11e8-9fa5-910519a483a6
+[ERROR - 2018-05-08T02:52:22.470Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:52:39.369Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:09.516Z] Session [d210af80-526a-11e8-9fa5-910519a483a6] - page.onError - msg: TypeError: undefined is not an object (evaluating 'bdV3x.addCallback')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:09.516Z] Session [d210af80-526a-11e8-9fa5-910519a483a6] - page.onError - stack:
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:132)
+  forEach (:0)
+  bd4h (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:17)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:132)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:1)
+  Of8X (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:25)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?08e66699f107989d25f8d5d5df242407:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:39.903Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:41.838Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:41.876Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:47.697Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/rect\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"rect\",\"directory\":\"/\",\"path\":\"/rect\",\"relative\":\"/rect\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/rect\",\"queryKey\":{},\"chunks\":[\"rect\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/element/:wdc:1525748021748/rect\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:53.696Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:53.756Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/rect\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"rect\",\"directory\":\"/\",\"path\":\"/rect\",\"relative\":\"/rect\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/rect\",\"queryKey\":{},\"chunks\":[\"rect\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/element/:wdc:1525748021748/rect\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:59.458Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-08T02:53:59.506Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:49420\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/rect\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"rect\",\"directory\":\"/\",\"path\":\"/rect\",\"relative\":\"/rect\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/rect\",\"queryKey\":{},\"chunks\":[\"rect\"]},\"urlOriginal\":\"/session/d210af80-526a-11e8-9fa5-910519a483a6/element/:wdc:1525748021748/rect\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-05-08T02:57:15.844Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:02:15.844Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:07:15.887Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:12:15.888Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:17:15.893Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:22:15.893Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:27:15.893Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:32:15.894Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:37:15.930Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:42:15.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:47:15.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:52:15.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T03:57:15.938Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:02:15.938Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:07:15.939Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:12:15.938Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:17:15.970Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:22:15.970Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:27:15.970Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:32:15.970Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:37:15.985Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:42:15.984Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:47:15.984Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:52:15.986Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T04:57:15.987Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:02:15.989Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:07:16.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:12:16.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:17:16.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:22:16.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:27:16.038Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:32:16.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:37:16.039Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:42:16.045Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:47:16.076Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:52:16.077Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T05:57:16.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:02:16.094Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:07:16.097Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:12:16.097Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:17:16.101Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:22:16.101Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:27:16.133Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:32:16.135Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:37:16.137Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:42:16.137Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:47:16.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:52:16.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T06:57:16.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:02:16.146Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:07:16.179Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:12:16.180Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:17:16.180Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:22:16.183Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:27:16.190Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:32:16.190Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:37:16.190Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:42:16.192Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:47:16.192Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:52:16.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T07:57:16.229Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:02:16.229Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:07:16.234Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:12:16.234Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:17:16.284Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:22:16.289Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:27:16.288Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:32:16.290Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:37:16.328Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:42:16.328Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:47:16.328Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:52:16.331Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T08:57:16.332Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:02:16.337Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:07:16.336Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:12:16.336Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:17:16.338Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:22:16.339Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:27:16.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:32:16.384Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:37:16.385Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:42:16.386Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:47:16.387Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:52:16.392Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T09:57:16.391Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:02:16.393Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:07:16.393Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:12:16.435Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:17:16.428Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:22:16.429Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:27:16.431Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:32:16.430Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:37:16.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:42:16.435Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:47:16.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:52:16.470Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T10:57:16.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:02:16.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:07:16.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:12:16.480Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:17:16.480Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:22:16.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:27:16.485Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:32:16.485Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:37:16.521Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:42:16.522Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:47:16.523Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:52:16.529Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-08T11:57:16.530Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
